@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,900,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght,SOFT@9..144,900,100&display=swap');
 
 body {
     display: grid;
@@ -30,12 +31,12 @@ body {
             position: absolute;
             left: 6.4%;
             right: 6.4%;
-            bottom: 45%;
+            bottom: 54%;
             text-align: center;
             font-family: 'Fraunces', serif;
-            font-size: 13vw;
-            letter-spacing: 1vw;
-            font-style: bold;
+            font-size: 10vw;
+            letter-spacing: 2vw;
+            text-transform: uppercase;
 
 
         }
@@ -54,4 +55,48 @@ body {
     background-repeat: no-repeat;
     background-position:center;
     height: 80vw;
+    }
+
+    .groupe_3 {
+        grid-area: 3 / 1 / 4 / 2; 
+        position: relative;
+        text-align: center;
+        height: auto;
+         &__titre {
+            position: absolute;
+            top: -25%;
+            left: 6.4%;
+            right: 6.4%;
+            color: #24303E;
+            font-family:'Fraunces', serif;
+            font-size: 9vw;
+         }
+         &__texte {
+            position: absolute;
+            top: 0%;
+            left: 6%;
+            right: 6%;
+            font-family: 'Barlow', sans-serif;
+            font-size: 4.5vw;
+            color: #808397 ;
+            line-height: 8vw;
+            letter-spacing: 0.15vw;
+         }
+         &__link {
+            position: absolute;
+            top: 40%;
+            left: 35%;
+            font-family: 'Fraunces', serif;
+            font-size: 4vw;
+            text-transform: uppercase;
+            color: #24303E;
+            text-decoration: underline 2vw rgba(243, 243, 145, 0.750);
+            &:hover {
+                text-decoration: underline 2vw rgb(246, 246, 61) ;
+                cursor:pointer;
+            }
+         }
+
+
+
     }
