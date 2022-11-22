@@ -3,7 +3,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: 120vw, 80vw, 70vw, 80vw, 70vw, 130vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin: 0%;
@@ -57,11 +57,11 @@ body {
   grid-area: 3/1/4/2;
   position: relative;
   text-align: center;
-  height: auto;
+  height: 110vw;
 }
 .groupe_3__titre {
   position: absolute;
-  top: -25%;
+  top: 8%;
   left: 6.4%;
   right: 6.4%;
   color: #24303E;
@@ -70,7 +70,7 @@ body {
 }
 .groupe_3__texte {
   position: absolute;
-  top: 0%;
+  top: 32%;
   left: 6%;
   right: 6%;
   font-family: "Barlow", sans-serif;
@@ -81,7 +81,7 @@ body {
 }
 .groupe_3__link {
   position: absolute;
-  top: 40%;
+  top: 75%;
   left: 35%;
   font-family: "Fraunces", serif;
   font-size: 4vw;
@@ -94,4 +94,66 @@ body {
   -webkit-text-decoration: underline 2vw rgb(246, 246, 61);
           text-decoration: underline 2vw rgb(246, 246, 61);
   cursor: pointer;
+}
+
+.groupe_4 {
+  grid-area: 4/1/5/2;
+  background-image: url(/resources/images/photos/image-stand-out.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vw;
+}
+
+.groupe_5 {
+  grid-area: 5/1/6/2;
+  position: relative;
+  text-align: center;
+  height: 110vw;
+}
+.groupe_5__titre {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  right: 8%;
+  color: #24303E;
+  font-family: "Fraunces", serif;
+  font-size: 9vw;
+}
+.groupe_5__texte {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  right: 6%;
+  font-family: "Barlow", sans-serif;
+  font-size: 4.5vw;
+  color: #808397;
+  line-height: 8vw;
+  letter-spacing: 0.15vw;
+}
+.groupe_5__link {
+  position: absolute;
+  top: 78%;
+  left: 35%;
+  font-family: "Fraunces", serif;
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: #24303E;
+  -webkit-text-decoration: underline 2vw rgba(243, 243, 145, 0.75);
+          text-decoration: underline 2vw rgba(243, 243, 145, 0.75);
+}
+.groupe_5__link:hover {
+  -webkit-text-decoration: underline 2vw rgb(246, 246, 61);
+          text-decoration: underline 2vw rgb(246, 246, 61);
+  cursor: pointer;
+}
+
+.groupe_6 {
+  grid-area: 6/1/7/2;
+  background-image: url(/resources/images/photos/image-graphic-design.jpg);
+  background-size: 192vw 160vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 130vw;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
