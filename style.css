@@ -146,12 +146,12 @@ body {
   font-size: 4vw;
   text-transform: uppercase;
   color: #24303E;
-  -webkit-text-decoration: underline 2vw rgba(243, 243, 145, 0.75);
-          text-decoration: underline 2vw rgba(243, 243, 145, 0.75);
+  -webkit-text-decoration: underline 2vw rgba(243, 145, 145, 0.644);
+          text-decoration: underline 2vw rgba(243, 145, 145, 0.644);
 }
 .groupe_5__link:hover {
-  -webkit-text-decoration: underline 2vw rgb(246, 246, 61);
-          text-decoration: underline 2vw rgb(246, 246, 61);
+  -webkit-text-decoration: underline 2vw rgb(237, 70, 44);
+          text-decoration: underline 2vw rgb(237, 70, 44);
   cursor: pointer;
 }
 
