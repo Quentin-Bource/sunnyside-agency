@@ -325,7 +325,7 @@ body {
 
     body {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         grid-template-rows: 80vw, 400vw;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
@@ -359,14 +359,15 @@ body {
                 visibility: hidden;
             }
             &__menu {  
+                
             }
     
         }
         .laptop {
             grid-area: 2 / 1 / 3 / 2;
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat( 40vw, 40vw, 40vw);
+            grid-template-columns: 50%,50%;
+            grid-template-rows: repeat( 40vw, 40vw, 40vw, 50vw, 50vw);
             grid-column-gap: 0px;
             grid-row-gap: 0px;
                 .groupe_3 {
@@ -404,8 +405,8 @@ body {
                     height: 40vw;
                 }
                 .groupe_4{
-                    grid-area: 2 / 1 / 3 / 2;
                     height: 40vw;
+                    grid-area: 2 / 1 / 3 / 2;
                 }
                 .groupe_5 {
                     grid-area: 2 / 2 / 3 / 3;
@@ -440,12 +441,147 @@ body {
                     grid-area: 3 / 1 / 4 / 2;
                     height: 40vw;
                     background-size: 50vw 40vw;
+                        &__titre {
+                            font-size: 2.5vw;
+                            top: 60%;
+                            left: 15%;
+                        }
+                        &__texte {
+                            font-size: 1.2vw;
+                            line-height: 2vw;
+                            left: 28%;
+                            right: 20%;
+                        }
                 }
                 .groupe_7{
                     grid-area: 3 / 2 / 4 / 3;
                     height: 40vw;
                     background-size:50vw 40vw;
+                    &__titre {
+                        font-size: 2.5vw;
+                        top: 60%;
+                        left: 12%;
+                    }
+                    &__texte {
+                        font-size: 1.2vw;
+                        line-height: 2vw;
+                        left: 25%;
+                        right: 20%;
+                    }
                 }
             }
 
+        .groupe_8 {
+            grid-area: 3 / 1 / 4 / 2;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            height: 50vw;
+            width: 100%;
+                &__titre { 
+                    grid-area: 1 / 1 / 2 / 4;
+                    font-size: 1.5vw;
+                    margin-top: 10%;
+                    letter-spacing: 0.30vw;
+                }
+                &__photo {
+                    margin-top: 50%;
+                    width: 15%;
+                    height: auto;
+                }
+                &__texte {
+                    margin-top: 15%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                    font-size: 1.2vw;
+                    color: #808397 ;
+                    line-height: 2vw;
+                    letter-spacing: 0;
+                }
+                &__name {
+                    color:#24303E;
+                    padding-top: 10%;
+                    font-size: 1.3vw;
+                    font-family: "Fraunces", serif;
+                    margin-top: 5%;
+                    
+                }
+                &__prof {
+                    color: #A7AAAD;
+                    font-family: "Barlow", sans-serif;
+                    font-size: 1vw;
+                    margin-top: -1%;}
+                .Emily {
+                    grid-area: 1 / 1 / 2 / 2;
+                    ;
+
+                }
+                .Thomas {
+                    grid-area: 1 / 2 / 2 / 3;
+                }
+                .Jennie {
+                    grid-area: 1 / 3 / 2 / 4;
+                }
+        }
+        .groupe_9{
+            grid-area: 4 / 1 / 5 / 2; 
+            height: 30vw;
+            display: grid ;
+            grid-template-columns: repeat(4, 25%);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            &__milk {
+                grid-area: 1 / 1 / 2 / 2;
+                background-size: cover;
+            }
+            &__orange {
+                grid-area: 1 / 2 / 2 / 3;
+                background-size: cover;
+            }
+            &__cone {
+                grid-area: 1 / 3 / 2 / 4;
+                background-size: cover;
+            }
+            &__sugar {
+                grid-area: 1 / 4 / 2 / 5;
+                background-size: cover;
+            }
+        }
+        .groupe_10 {
+            grid-area: 5 / 1 / 6 / 2;
+            height: 25vw; 
+
+            &__titre {
+                margin-top: 5%;
+                width:13%;
+                height:auto;
+            }
+            &__texte {
+                font-family: 'Barlow', sans-serif;
+                font-size: 1.3vw;
+                word-spacing: 5vw;
+                color: #458D7E;
+                margin-top: 3%;
+                &:hover {
+                    cursor: pointer;
+                    color: #F2F2F2;
+                }
+            }
+            &__icon{
+                width: 1.3%;
+                height: auto;
+                padding-left: 0.7%;
+                padding-right: 0.7%;
+                margin-top: 5.5%;
+                &:hover {
+                    cursor: pointer;
+                    color : #F2F2F2;
+                }
+            }
+        }
 }
