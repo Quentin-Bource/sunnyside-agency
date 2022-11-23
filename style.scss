@@ -56,6 +56,9 @@ body {
         &__menu {  
             visibility: hidden;
         }
+        &__contact {
+            visibility: hidden;
+        }
 
     }
     .groupe_2 {
@@ -370,7 +373,9 @@ body {
                         cursor: pointer;
                     }
             }
-            &__contact {position: absolute;
+            &__contact {
+                visibility: visible;
+                position: absolute;
                 top: 5.5%;
                 right: 3%;
                 text-align: center;
