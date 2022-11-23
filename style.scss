@@ -359,7 +359,39 @@ body {
                 visibility: hidden;
             }
             &__menu {  
-                
+                visibility: visible; 
+                position: absolute;
+                right: 15%;
+                top: 5%;
+                word-spacing: 5vw;
+                font-family: "Barlow", sans-serif;
+                font-size: 1.2vw;
+                    &:hover {
+                        cursor: pointer;
+                    }
+            }
+            &__contact {position: absolute;
+                top: 5.5%;
+                right: 3%;
+                text-align: center;
+                padding-top: 0.8%;
+                text-decoration: none;
+                font-family: "Fraunces", sans-serif;
+                font-size: 700;
+                font-size:1.2vw;
+                width:9.5vw;
+                height:2.2vw;
+                color:rgba(16, 16, 16, 1);
+                border-top-left-radius:32px;
+                border-top-right-radius:32px;
+                border-bottom-left-radius:32px;
+                border-bottom-right-radius:32px;
+                background:rgb(255, 255, 255);
+                background-size: cover;
+                &:hover {
+                    background-color: #80d5ff;
+                    color: #FFFFFF;
+                }
             }
     
         }
