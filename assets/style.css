@@ -11,7 +11,7 @@ body {
 
 .groupe_1 {
   grid-area: 1/1/2/2;
-  background-image: url(../resources/images/photos/image-header.jpg);
+  background-image: url(./resources/images/photos/image-header.jpg);
   background-size: 200vw 120vw;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -60,7 +60,7 @@ body {
 
 .groupe_2 {
   grid-area: 2/1/3/2;
-  background-image: url(../resources/images/photos/image-transform.jpg);
+  background-image: url(./resources/images/photos/image-transform.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
