@@ -16,7 +16,7 @@ Pour utiliser Sunnyside:
 ## Fonctionnalités
 Sunnyside est un site vitrine et n'a pas de fonctionnalités interactives. Il permet aux utilisateurs de découvrir les différentes sections du site web.
 
-<img width="1506" alt="Accueil site" src="https://github.com/Quentin-Bource/sunnyside-agency/blob/main/SunnySide.png">
+<img width="1506" alt="Accueil site" src="https://github.com/Quentin-Bource/sunnyside-agency/blob/main/resources/images/SunnySide.png">
 
 ## Limitations
 Veuillez noter que Sunnyside est un projet statique réalisé uniquement en HTML et en CSS. Il n'inclut donc pas de fonctionnalités avancées telles que l'interaction avec l'utilisateur ou l'utilisation de bases de données.
