@@ -1,6 +1,8 @@
 # Sunnyside
 Sunnyside est un projet de refonte du site web éponyme réalisé lors de la première phase de la formation BeCode. Ce projet a pour but de permettre aux apprenants de maîtriser les concepts de base de l'HTML et du CSS en recréant le site original pixel par pixel.
 
+site web : https://quentin-bource.github.io/sunnyside-agency/
+
 ## Installation
 Pour installer Sunnyside, suivez les étapes suivantes:
 
